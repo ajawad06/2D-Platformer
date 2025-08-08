@@ -65,24 +65,24 @@ cd 2D-Platformer
 
 3. Configure SFML in Visual Studio:
 
-   a) Go to Project → Properties → C/C++ → General → Additional Include Directories and add: 
+    a) Go to Project → Properties → C/C++ → General → Additional Include Directories and add: 
    ```bash
     SFML/include
    ```
 
-   b) Go to Linker → General → Additional Library Directories and add:
-  ```bash
+    b) Go to Linker → General → Additional Library Directories and add:
+    ```bash
       SFML/lib
-  ```
+    ```
 
-   c) Go to Linker → Input → Additional Dependencies and add:
-```vbnet
-sfml-graphics.lib
-sfml-window.lib
-sfml-system.lib
-sfml-audio.lib
-```
-  d) Copy the required .dll files from:
+    c) Go to Linker → Input → Additional Dependencies and add:
+      ```vbnet
+    sfml-graphics.lib
+    sfml-window.lib
+    sfml-system.lib
+    sfml-audio.lib
+    ```
+    d) Copy the required .dll files from:
   ```bash
   SFML/bin
   ```
