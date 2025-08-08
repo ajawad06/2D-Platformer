@@ -83,10 +83,10 @@ cd 2D-Platformer
     sfml-audio.lib
     ```
     d) Copy the required .dll files from:
-  ```bash
-  SFML/bin
-  ```
-into the same folder as your compiled .exe
+    ```bash
+    SFML/bin
+    ```
+    into the same folder as your compiled .exe
 
 4. Make sure the Platform is set to x64
 
