@@ -29,8 +29,8 @@ Your goal is to **reach the door** at the end of each level without losing all y
 │   ├── assets/           # Images
 │   ├── arial.ttf         # Font
 │   ├── music.ogg         # Background music
-│   └── ...
-├── sfml/                 # SFML headers/libs (if included)
+│   
+├── sfml/                 # SFML
 ├── src/                  # All C++ source files
 ├── 2D-Platformer.sln     # Visual Studio solution
 └── README.md
@@ -65,16 +65,16 @@ cd 2D-Platformer
 
 3. Configure SFML in Visual Studio:
 
-  a) Go to Project → Properties → C/C++ → General → Additional Include Directories and add: 
+   a) Go to Project → Properties → C/C++ → General → Additional Include Directories and add: 
    ```bash
     SFML/include
    ```
 
-  b) Go to Linker → General → Additional Library Directories and add:
+   b) Go to Linker → General → Additional Library Directories and add:
   ```bash
       SFML/lib
   ```
-  c) Go to Linker → Input → Additional Dependencies and add:
+   c) Go to Linker → Input → Additional Dependencies and add:
 ```vbnet
 sfml-graphics.lib
 sfml-window.lib
