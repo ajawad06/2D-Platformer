@@ -1,0 +1,42 @@
+## Ignore build output
+Debug/
+Release/
+x64/
+bin/
+build/
+
+## Ignore Visual Studio cache and settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore compiler intermediates
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.ilk
+*.tlog
+*.log
+*.tmp
+*.cmd
+*.lastbuildstate
+
+## Ignore other generated files
+*.exe
+*.dll
+*.lib
+*.app
+*.exp
+
+## Ignore SFML build artifacts (if you build SFML yourself)
+sfml/build/
+sfml/lib/
+
+## Ignore OS-specific junk
+.DS_Store
+Thumbs.db
