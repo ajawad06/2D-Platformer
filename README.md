@@ -1,13 +1,13 @@
 # 🎮 Platformer Game
 
 A simple but fun **2D platformer** built in C++ using **SFML**.  
-Jump, avoid enemies, and reach the goal to win!
+Jump, avoid enemies, and reach the goal.
 
 ---
 
 ## 📜 Game Overview
-You play as a character navigating through platforms, avoiding enemies, and collecting points along the way.  
-Your goal is to **reach the door** at the end of each level without losing all your lives.
+You play as a character navigating through platforms and avoiding enemies along the way.  
+Your goal is to **reach the door** at the end of each level without losing your life.
 
 ---
 
@@ -16,8 +16,8 @@ Your goal is to **reach the door** at the end of each level without losing all y
 - Smooth player movement & jumping
 - Enemy + Platform movement
 - Axis-Aligned Bounding Box (AABB) collision detection system
+- Level based game i.e. five levels
 - Background music & sound effects
-- Pixel-art textures & custom fonts
 - Resource loading for textures, fonts, and audio
 
 ---
@@ -29,10 +29,12 @@ Your goal is to **reach the door** at the end of each level without losing all y
 │   ├── assets/           # Images
 │   ├── arial.ttf         # Font
 │   ├── music.ogg         # Background music
-│   
-├── sfml/                 # SFML
+│
+├── sfml/include/SFML     # SFML
 ├── src/                  # All C++ source files
 ├── 2D-Platformer.sln     # Visual Studio solution
+├── 2D-Platformer.vcxproj     # Visual C++ project file containing build settings
+├── 2D-Platformer.vcxproj.filters     # Stores the virtual folder structure for source files in Visual Studio
 └── README.md
 ```
 ---
