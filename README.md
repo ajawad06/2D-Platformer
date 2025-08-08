@@ -74,6 +74,7 @@ cd 2D-Platformer
   ```bash
       SFML/lib
   ```
+
    c) Go to Linker → Input → Additional Dependencies and add:
 ```vbnet
 sfml-graphics.lib
@@ -81,10 +82,10 @@ sfml-window.lib
 sfml-system.lib
 sfml-audio.lib
 ```
-   d) Copy the required .dll files from:
-```bash
-SFML/bin
-```
+  d) Copy the required .dll files from:
+  ```bash
+  SFML/bin
+  ```
 into the same folder as your compiled .exe
 
 4. Make sure the Platform is set to x64
